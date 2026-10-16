@@ -1,0 +1,40 @@
+{
+    "name": "gc-01-expense-tracker",
+    "version": "1.0.0",
+    "description": "gc series ep 01: an expense tracker API built in Node.js, TypeScript",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/akcumeh/gc-01-expense-tracker.git"
+    },
+    "keywords": [
+        "expense",
+        "tracker",
+        "nodejs",
+        "express",
+        "mongodb"
+    ],
+    "author": "Angel Umeh <akcumeh@gmail.com> (https://akcumeh.github.io)",
+    "license": "ISC",
+    "type": "module",
+    "bugs": {
+        "url": "https://github.com/akcumeh/gc-01-expense-tracker/issues"
+    },
+    "homepage": "https://github.com/akcumeh/gc-01-expense-tracker#readme",
+    "dependencies": {
+        "@types/node": "^26.6.5",
+        "dotenv": "^18.0.8",
+        "express": "^5.3.0",
+        "tsx": "^4.23.15"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.6",
+        "typescript": "^7.0.2"
+    },
+    "allowScripts": {
+        "esbuild@0.28.2": true
+    }
+}
