@@ -8,4 +8,4 @@ export interface User {
     password: string;
     created_at: string;
     entries: [Entry];
-}
+};

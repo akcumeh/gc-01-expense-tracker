@@ -7,4 +7,4 @@ export interface Entry {
     category: "string";
     description: string;
 
-}
+};

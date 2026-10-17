@@ -26,6 +26,7 @@
     },
     "homepage": "https://github.com/akcumeh/gc-01-expense-tracker#readme",
     "dependencies": {
+        "@supabase/server": "^1.9.2",
         "@types/node": "^26.6.5",
         "bcryptjs": "^3.0.3",
         "dotenv": "^18.0.8",
