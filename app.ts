@@ -4,8 +4,10 @@ import express from 'express';
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.get('/', (req, res) => {
-    res.send("Hello World, welcome to ExTrak.");
+app.use(express.json());
+
+app.get('/health', (req, res) => {
+    res.status(200).send("Hello World, welcome to ExTrak. ExTrak is running");
 });
 
 app.listen(PORT, () => {
